@@ -13,7 +13,7 @@ A mock RESTful API created with Python FastAPI. It provides layered access to a 
 	Alternatively, visit the URL provided by uvicorn and append with /docs
 
 **General overview**
-[image](brainstorm.png)
+[image](Brainstorm.png)
 The general idea of this API is to provide access to an digital services provider's database. This is done with restricted access due to the nature of personal and private company information. Any user can retrieve general information about products. Customers can register themselves as users, using their phone number as their username. Then they can access their personal information and update it accordingly. An admin user can also add products to the database.
 
 Features such as admin product deletion, customer access to their active products have yet to be implemented due to the 5 hour time constraint. With little effort these should be able to be added.
